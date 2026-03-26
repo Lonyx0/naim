@@ -18,9 +18,9 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Iterations | 1 |
-| Total Weight (kg) | 5 |
-| Total Time (min) | 15 |
+| Total Iterations | 2 |
+| Total Weight (kg) | 15 |
+| Total Time (min) | 30 |
 | Failed Attempts | 0 |
 
 ---
@@ -72,6 +72,48 @@ boilerplate code.
 **Commit:** `[NAIM: DayFlow] Temel UI ana ekranı oluşturuldu - 5kg`
 
 ---
+
+### 🏋️ Iteration 2
+
+| Field | Value |
+|-------|-------|
+| Feature | `Görev ekleme (modal), silme (long press), checkbox toggle` |
+| Weight | `10 kg` |
+| Tool Used | `Antigravity` |
+| Time | `15 min` |
+| Attempts | `1` |
+| Status | ✅ Success |
+
+**Prompt given to AI:**
+```
+Add the following features to the existing DayFlow React Native app:
+
+1. ADD TASK:
+   - Tapping the "+" FAB button opens a modal
+   - Modal has a text input field and an "Add Task" button
+   - Pressing "Add Task" adds the new task to the list and closes modal
+   - Empty input should not add a task (validate)
+
+2. DELETE TASK:
+   - Long pressing a task card opens a confirmation alert
+   - Alert says "Delete this task?" with Cancel and Delete buttons
+   - Pressing Delete removes the task from the list
+
+3. CHECKBOX TOGGLE:
+   - Tapping the checkbox marks task as done
+   - Done tasks: green left border + strikethrough text on title
+   - Tapping again unchecks it (toggle behavior)
+
+Keep all existing UI unchanged. Use useState, no external libraries.
+```
+
+**What happened:**
+- Modal, checkbox toggle ve long press silme ilk denemede çalıştı. 
+  Tamamlanan görevde yeşil border ve strikethrough görsel olarak doğrulandı.
+
+**Screenshot:** `assets/iter2.png`
+
+**Commit:** `[NAIM: DayFlow] Görev ekleme/silme ve checkbox toggle - 10kg`
 
 ### 🏋️ Iteration 2
 
