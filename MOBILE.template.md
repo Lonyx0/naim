@@ -9,7 +9,7 @@
 
 **NAIM Name:** `[Your creative NAIM name — e.g., "Samsun Pocket Hercules"]`  
 **Crew:** `[Your group name]`  
-**App Concept:** `[One sentence — what does your app do?]`  
+**App Concept:** `[One sentence — what does your app do?]`
 **Starting Tool:** `[Stitch / Antigravity / a0.dev / Claude Code / other]`
 
 ---
