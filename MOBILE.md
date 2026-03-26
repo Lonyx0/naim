@@ -115,6 +115,42 @@ Keep all existing UI unchanged. Use useState, no external libraries.
 
 **Commit:** `[NAIM: DayFlow] Görev ekleme/silme ve checkbox toggle - 10kg`
 
+-------
+
+### 🏋️ Iteration 3
+
+| Field | Value |
+|-------|-------|
+| Feature | `Çoklu ekran navigasyonu — Today ve Done sekmeleri` |
+| Weight | `15 kg` |
+| Tool Used | `Antigravity` |
+| Time | `15 min` |
+| Attempts | `1` |
+| Status | ✅ Success |
+
+**Prompt given to AI:**
+```
+Add multi-screen navigation to the existing DayFlow React Native app 
+using React Navigation.
+
+Create 2 screens:
+1. HOME SCREEN (existing): Add bottom tab bar with "Today" and "Done" tabs
+2. DONE SCREEN (new): Shows only completed tasks, same card style,
+   header "Completed Tasks ✅", tapping unchecks and moves back to Today
+
+Setup: @react-navigation/native + @react-navigation/bottom-tabs
+Use shared state in App.js. Keep existing UI styles unchanged.
+```
+
+**What happened:**
+- Bottom tab navigation başarıyla eklendi. Today ve Done sekmeleri 
+  çalışıyor, tamamlanan görevler Done ekranına taşınıyor. 
+  Header gradient rengi değişti ama fonksiyonellik tam çalışıyor.
+
+**Screenshot:** `assets/iter3.png`
+
+**Commit:** `[NAIM: DayFlow] Çoklu ekran navigasyonu eklendi - 15kg`
+
 ### 🏋️ Iteration 2
 
 | Field | Value |
